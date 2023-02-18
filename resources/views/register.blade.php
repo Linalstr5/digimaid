@@ -66,7 +66,8 @@ License: You must have a valid license purchased only from themeforest(the above
     <div class="card mb-0">
       <div class="card-body">
         <a href="javascript:void(0);" class="brand-logo">
-          <h2 class="brand-text text-primary ml-1">DIGIMAID</h2>
+          {{-- <h2 class="brand-text text-primary ml-1">DIGIMAID</h2> --}}
+          <img src="{{ url('vuexy/app-assets/images/logo/digimaid.png')}}" style="height: 100px">
         </a>
 
         <h4 class="card-title mb-1">Buat Akun Baru</h4>

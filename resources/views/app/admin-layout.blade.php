@@ -22,7 +22,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <meta name="author" content="PIXINVENT">
     <title>@yield('title')</title>  
     <link rel="apple-touch-icon" href="{{ url('vuexy/app-assets/images/ico/apple-icon-120.png') }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ url('vuexy/app-assets/images/ico/favicon.ico') }}">
+    {{-- <link rel="shortcut icon" type="image/x-icon" href="{{ url('vuexy/app-assets/images/ico/favicon.ico') }}"> --}}
     <link href="{{ url('vuexy/css2.css?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600') }}" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
